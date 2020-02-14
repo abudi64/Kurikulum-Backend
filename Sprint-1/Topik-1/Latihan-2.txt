@@ -1,0 +1,19 @@
+psoudo-code
+
+
+PROGRAM GajiKaryawan
+{Program menghitung Gaji bersih karyawan. Data masukan yaitu, NIP, Nama Karyawan, Gaji Pokok Bulanan. Gaji bersih = Gaji pokok + Tunjangan - Infaq. Tunjangan adalah 25% dari gaji pokok. Infaq adalah 10% darigaji pokok. Output dari program adalah NIP, Nama Karyawan, Gaji Bersih}
+
+DEKLARASI
+const PersenTunjanagan = 0.25 {Persenan Tunjangan gaji}
+const PersenanInfaq = 0.10 {Persenan Infaq}
+Nama Karyawan : String
+NIP : Interger
+Gaji Pokok, Tunjangan, Infaq, Gaji Bersih : Real
+
+Algoritma
+read (NIP, NamaKaryawan, GajiPokok)
+Tunjangan <- PersenanTunjangan * GajiPokok
+Infaq <- Infaq * (GajiPokok + Tunjangan)
+GajiBersih <- GajiPokok + Tunjangan - Infaq
+write (NIP, NamaKaryawan, GajiBersih)

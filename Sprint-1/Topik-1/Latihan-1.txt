@@ -1,0 +1,12 @@
+Cara_Mengoperasikan_Microsoft_Word
+
+Jika Komputer dalam keadaan mati, Hidupkan Komputer
+tunggu proses booting
+masuk ke deskstop 
+buka Finder (untuk mac)
+buka folder Aplication
+cari aplikasi Microsoft word
+klik untuk membuka aplikasi
+pada home screen, pilih blank Document
+kemudian klik Create
+mulailah mengetik
