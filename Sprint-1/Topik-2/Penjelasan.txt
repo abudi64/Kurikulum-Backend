@@ -1,0 +1,30 @@
+
+Penjelasan Tugas No.1
+______________________
+
+
+var_dump($d + $e) = int(5) hasilnya tetap terbaca interger (5) walaupun masing masing memiliki tipe data yg berbeda $d adalah Interger dan $e adalah string karena operator aritmatika tetap mencari angka tanpa mempedulikan tipe datanya.
+
+var_dump($e == $f) = bool(true) hasilnya true artinya 'sama', karena operator pembanding (==) hanya melihat kepada intergernya bukan kepada Tipe datanya.
+
+var_dump($e===$f) = bool(false) hasilnya false artinya tidak sama, karena keduanya memiliki tipe data yg berbeda. operator pembanding type Juggling (===) akan melihat kepada Tipe datanya walaupun angka intergernya sama.
+
+var_dump($g) = NULL karena $g nilainya Kosong atau Hampa.
+
+var_dump((bool)$g) = bool(false) hasilnya False, karena Tipe data Boolean menilai False untuk seusatu yg tidak ada $e tidak memiliki nilai.
+
+var_dump((int)$g) = int(0) hasilnya Interger 0, karena $g adalah NULL atau Kosong.
+___________________________________________________________________________________
+
+
+Penjelasan Tugas No. 2
+______________________
+
+
+var_dump(true && false) = bool(false) karena Operator Logika AND (&&) harus memiliki nilai yg sama, jika berbeda maka hasilnya salah (false).
+
+var_dump(true || false) = bool(true) Oerator Logika OR (||) akan memberikan nilai benar (true) jika salah satunya merupakan nilai true. 
+
+var_dump(false || false) = bool(false) Oerator Logika OR (||) akan memberikan nilai false jika keduanya merupan false.
+
+var_dump(!false) = bool(true) Operator Logika (!) adalah Kebalikan. maka, kebalikan nilai !false adalah true.
